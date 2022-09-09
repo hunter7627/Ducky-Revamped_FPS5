@@ -413,16 +413,16 @@ local function Initiate()
 
 				local ZAxis
 				local angle = 0
-				if PointInTable <= 10 then
+				if PointInTable <= 5 then
 					ZAxis = 2
 					angle = (10-PointInTable)
-				elseif PointInTable <= 20 then
+				elseif PointInTable <= 10 then
 					ZAxis = -1
 					angle = (20-PointInTable)
-				elseif PointInTable <= 30 then
+				elseif PointInTable <= 15 then
 					ZAxis = -4
 					angle = (30-PointInTable)
-				elseif PointInTable <= 40 then
+				elseif PointInTable <= 20 then
 					ZAxis = -8
 					angle = (40-PointInTable)
 				end
